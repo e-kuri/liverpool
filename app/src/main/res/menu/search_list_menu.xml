@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mx.com.liverpool.liverpool="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/product_searchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        mx.com.liverpool.liverpool:showAsAction="always"
+        mx.com.liverpool.liverpool:actionViewClass="android.widget.SearchView" />
+</menu>
